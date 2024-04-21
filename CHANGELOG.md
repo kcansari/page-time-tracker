@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.0.2
+
+### Patch Changes
+
+- 0500890: test 1
+
 ## 1.0.1
 
 ### Patch Changes
