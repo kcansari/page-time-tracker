@@ -5,6 +5,7 @@
 ### Patch Changes
 
 - Fixed issue where dist folder was not being sent live
+
 - f1e5afb: test 2
 
 ## 1.0.2
