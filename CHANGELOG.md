@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.0
+
+### Minor Changes
+
+- c08e828: Fixed issue where dist folder was not being sent live
+
 ## 1.0.3
 
 ### Patch Changes
