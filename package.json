@@ -9,6 +9,7 @@
   "repository": {
     "url": "https://github.com/kcansari"
   },
+  "private":"false",
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
