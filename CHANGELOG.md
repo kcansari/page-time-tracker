@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.3
+
+### Patch Changes
+
+- e037250: repo url changed
+
 ## 1.1.2
 
 ### Patch Changes
