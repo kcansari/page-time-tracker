@@ -1,0 +1,37 @@
+{
+  "name": "page-time-tracker",
+  "version": "1.0.0",
+  "description": "this code tracks consumed time in a page while considering idle time",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/kcansari",
+  "repository": {
+    "url": "https://github.com/kcansari"
+  },
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup",
+    "lint": "tsc",
+    "ci": "npm run lint && npm run test && npm run build"
+  },
+  "keywords": [
+    "page",
+    "time",
+    "tracker",
+    "consumed",
+    "user",
+    "idle time"
+  ],
+  "author": "Kemal Can SARI",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
