@@ -9,7 +9,6 @@
   "repository": {
     "url": "https://github.com/kcansari"
   },
-  "private": "false",
   "publishConfig": {
       "access": "public"
      },
