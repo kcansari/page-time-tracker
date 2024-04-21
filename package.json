@@ -10,6 +10,9 @@
     "url": "https://github.com/kcansari"
   },
   "private": "false",
+  "publishConfig": {
+      "access": "public"
+     },
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
