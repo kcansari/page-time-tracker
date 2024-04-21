@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.1
+
+### Patch Changes
+
+- hooks are implemented
+
 ## 1.1.0
 
 ### Minor Changes
