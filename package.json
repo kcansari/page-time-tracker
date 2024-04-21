@@ -16,7 +16,7 @@
     "build": "tsup",
     "lint": "tsc",
     "ci": "npm run lint && npm run test && npm run build",
-    "release": "npm run lint && npm run test && npm run build && changet publish"
+    "release": "npm run lint && npm run test && npm run build && changeset publish"
   },
   "keywords": [
     "page",
