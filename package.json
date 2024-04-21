@@ -1,6 +1,6 @@
 {
   "name": "surf-timer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this code tracks consumed time in a page while considering idle time",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,8 +10,8 @@
     "url": "https://github.com/kcansari"
   },
   "publishConfig": {
-      "access": "public"
-     },
+    "access": "public"
+  },
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
