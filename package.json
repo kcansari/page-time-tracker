@@ -1,5 +1,5 @@
 {
-  "name": "page-time-tracker",
+  "name": "Surf-timer",
   "version": "1.0.1",
   "description": "this code tracks consumed time in a page while considering idle time",
   "main": "./dist/index.js",
