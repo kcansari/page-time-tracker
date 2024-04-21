@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://github.com/kcansari",
   "repository": {
-    "url": "https://github.com/kcansari"
+    "url": "https://github.com/kcansari/page-time-tracker"
   },
   "publishConfig": {
     "access": "public"
