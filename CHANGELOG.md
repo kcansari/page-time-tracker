@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.0.3
+
+### Patch Changes
+
+- f1e5afb: test 2
+
 ## 1.0.2
 
 ### Patch Changes
