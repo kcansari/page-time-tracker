@@ -14,7 +14,8 @@
     "test": "vitest run",
     "build": "tsup",
     "lint": "tsc",
-    "ci": "npm run lint && npm run test && npm run build"
+    "ci": "npm run lint && npm run test && npm run build",
+    "release": "npm run lint && npm run test && npm run build && changet publish"
   },
   "keywords": [
     "page",
@@ -27,6 +28,7 @@
   "author": "Kemal Can SARI",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
     "vitest": "^1.5.0"
