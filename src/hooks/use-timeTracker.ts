@@ -12,13 +12,13 @@ const DEFAULT_EVENTS: (keyof DocumentEventMap)[] = [
 export function useSurfTimer({
   idleTime,
   initialState = true,
-  events,
+  events = [],
   fn,
   intervalTime,
 }: {
   idleTime: number;
   initialState: boolean;
-  events: (keyof DocumentEventMap)[];
+  events?: (keyof DocumentEventMap)[];
   fn: () => void;
   intervalTime: number;
 }) {
