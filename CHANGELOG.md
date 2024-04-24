@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.5
+
+### Patch Changes
+
+- 312091a: readme is updated and events are become optional
+
 ## 1.1.4
 
 ### Patch Changes
