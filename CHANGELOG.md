@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.4
+
+### Patch Changes
+
+- d8271a6: main hook is implemented
+
 ## 1.1.3
 
 ### Patch Changes
