@@ -21,19 +21,32 @@ npm i surf-timer
 ```javascript
 import { useSurfTimer } from "surf-timer";
 
-const surfTime = useSurfTimer({
-  idleTime: 2000,
-  initialState: false,
-  intervalTime: 1000,
-  fn() {
-    console.log("hello world");
-  },
-});
+function App() {
+  const surfTime = useSurfTimer({
+    idleTime: 2000,
+    initialState: false,
+    intervalTime: 1000,
+    fn() {
+      console.log("hello world");
+    },
+  });
 
-useEffect(() => {
-  surfTime.interval.start();
-  return surfTime.interval.stop;
-}, []);
+  useEffect(() => {
+    surfTime.interval.start();
+    return surfTime.interval.stop;
+  }, []);
+
+  return (
+    <div>
+      <h2>Current Idle State: {surfTime.idle ? "true" : "false"}</h2>
+      <h2>
+        Current Interval State: {surfTime.interval.active ? "Start" : "Stop"}
+      </h2>
+    </div>
+  );
+}
+
+export default App;
 ```
 
 ## Definition
@@ -54,7 +67,7 @@ By default, the hook will listen to `keypress`, `mousemove`, `touchmove`, `click
 
 `surfTime.idle` -> current idle status
 
-`surfTime.interval.start` -> start interval br
+`surfTime.interval.start` -> start interval
 
 `surfTime.interval.stop` -> stop interval
 
