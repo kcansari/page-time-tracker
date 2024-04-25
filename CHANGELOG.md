@@ -1,5 +1,11 @@
 # page-time-tracker
 
+## 1.1.6
+
+### Patch Changes
+
+- 95b8b9e: readme file mistake is solved
+
 ## 1.1.5
 
 ### Patch Changes
